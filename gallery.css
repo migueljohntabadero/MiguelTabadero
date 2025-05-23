@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>Sizzle and Grill</title>
+
+ <style>
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #d89d30, #d0e7f9);
+display: flex;
+justify-content: center;
+padding: 40px;
+}
+
+
+.gallery-container {
+   background: linear-gradient(135deg, #d1bc5d, #d0e7f9); /* Match the theme's gradient */
+padding: 40px 60px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+width: 100%;
+
+   max-width: 1200px; /* Increase width */
+}
+
+
+.gallery-container h2 {
+margin-bottom: 10px;
+color: #1f78d1;
+font-weight: bold;
+
+   font-size: 36px; /* Increase font size */
+text-align: center;
+}
+
+.gallery-container p {
+color: #555;
+font-size: 18px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+}
+
+
+.gallery-grid img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;
+transition: transform 0.2s ease;
+cursor: pointer;
+}
+
+.gallery-grid img:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+  /* Style for video iframe */
+.video-thumbnail {
+width: 100%;
+height: 180px;
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.2s ease;
+cursor: pointer;
+}
+
+
+
+.video-thumbnail iframe {
+
+width: 100%;
+
+height: 100%;
+
+}
+
+
+
+.video-thumbnail:hover {
+
+transform: scale(1.05);
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="gallery-container">
+
+<h2>Sizzle and Grill</h2>
+
+<p>Explore photos and videos to inspire you!</p>
+
+<div class="gallery-grid">
+
+<!-- Photo Images -->
+
+<img src="C:\Users\student\Desktop\WebDesign_Tabadero\IMG\image.1697455322977.jpg" alt="Gallery Image">
+
+<img src="C:\Users\student\Desktop\WebDesign_Tabadero\IMG\Filipino-braised-pork-dish-humba-1000x1000.jpeg" alt="Gallery Image">
+
+<img src="C:\Users\student\Desktop\WebDesign_Tabadero\IMG\chai-crispy-tilapia-courtesy-filipino-food-week.jpeg" alt="Gallery Image">
+
+<img src="C:\Users\student\Desktop\WebDesign_Tabadero\IMG\istockphoto-1311559425-612x612.jpg" alt="Gallery Image">
+
+
+
+<div class="gallery-item">
+
+    <iframe src="https://www.youtube.com/watch?v=wh0t_FsdLNs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   </div>
+
+   <div class="gallery-item">
+
+    <iframe src="https://www.youtube.com/embed/kX3TfdUqpuU?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   </div>
+
+   <div class="gallery-item">
+
+    <iframe src="https://www.youtube.com/embed/8_eMgS6UszY?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   </div>
+
+
+
+  </div>
+
+ </div>
+
+</body>
+
+</html>
+
+
+

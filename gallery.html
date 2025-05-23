@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>Sizzle and Grill</title>
+
+ <style>
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #d89d30, #d0e7f9);
+display: flex;
+justify-content: center;
+padding: 40px;
+}
+
+
+.gallery-container {
+   background: linear-gradient(135deg, #d1bc5d, #d0e7f9); /* Match the theme's gradient */
+padding: 40px 60px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+width: 100%;
+
+   max-width: 12000px; /* Increase width */
+   border: 2px solid #cccccc;
+}
+
+
+.gallery-container h2 {
+margin-bottom: 10px;
+color: #1f78d1;
+font-weight: bold;
+
+   font-size: 36px; /* Increase font size */
+text-align: center;
+}
+
+.gallery-container p {
+color: #555;
+font-size: 18px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+}
+
+
+.gallery-grid img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;
+transition: transform 0.2s ease;
+cursor: pointer;
+}
+
+.gallery-grid img:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+  /* Style for video iframe */
+.video-thumbnail {
+width: 100%;
+height: 180px;
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.2s ease;
+cursor: pointer;
+}
+
+
+
+.video-thumbnail iframe {
+
+width: 100%;
+
+height: 100%;
+
+}
+
+
+
+.video-thumbnail:hover {
+
+transform: scale(1.05);
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="gallery-container">
+
+<h2>Sizzle and Grill</h2>
+
+<p>Explore photos and videos to inspire you!</p>
+
+<div class="gallery-grid">
+
+<!-- Photo Images -->
+
+<img src="https://omnivorescookbook.com/wp-content/uploads/2020/12/201113_Lumpia-Shanghai_550.jpg" alt="Gallery Image">
+
+<img src="https://www.maggi.ph/sites/default/files/srh_recipes/41d16b3eb7ce08aba9e9114f304f5d87.jpg" alt="Gallery Image">
+
+<img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/red-meats-&-red-meat-dishes/pan-grilled-liempo/pan-grilled-liempo-main-header.jpg" alt="Gallery Image">
+
+<img src="https://brenontheroad.smugmug.com/Filipino-Food/i-gT4qZcZ/0/L/DSC05196-L.jpg" alt="Gallery Image">
+
+
+
+<iframe src="https://www.youtube.com/embed/rCUnVt7DsSo" class="gallery-item" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" class="gallery-item" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/izDChx0zcPM" class="gallery-item" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/dA0VGEbbw4g" class="gallery-item" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+  </div>
+
+ </div>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8" />
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+ <title>My Universe</title>
+
+ <style>
+
+  * {
+
+   box-sizing: border-box;
+
+   margin: 0;
+
+   padding: 0;
+
+  }
+
+
+
+  body {
+
+   font-family: 'Segoe UI', sans-serif;
+
+   background-color: #d6cd7c;
+
+   color: #ffffff;
+
+   padding: 40px 20px;
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: center;
+
+  }
+
+
+
+  header {
+
+   text-align: center;
+
+   margin-bottom: 40px;
+
+  }
+
+
+
+  header h1 {
+
+   font-size: 50px;
+
+   color: black;
+
+   margin-bottom: 10px;
+
+  }
+
+
+
+  header p {
+
+   font-size: 18px;
+
+   color: #000000;
+
+  }
+
+
+
+  .intro {
+
+   text-align: center;
+
+   font-size: 18px;
+
+   color: #000000;
+
+   margin-bottom: 40px;
+
+   max-width: 800px;
+
+   line-height: 1.6;
+
+   font-weight: 300;
+
+  }
+
+
+
+  .games-grid {
+
+   display: grid;
+
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+   gap: 20px;
+
+   max-width: 1200px;
+
+   width: 100%;
+
+  }
+
+
+
+  .game-card {
+
+   background-color: #2b2b2b;
+
+   border-radius: 12px;
+
+   overflow: hidden;
+
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+   display: flex;
+
+   flex-direction: column;
+
+   transition: transform 0.3s ease;
+
+  }
+
+
+
+  .game-card:hover {
+
+   transform: translateY(-10px);
+
+  }
+
+
+
+  .game-card img {
+
+   width: 100%;
+
+   height: 180px;
+
+   object-fit: cover;
+
+   border-bottom: 3px solid #e83e8c;
+
+  }
+
+
+
+  .game-card .content {
+
+   padding: 20px;
+
+   text-align: center;
+
+  }
+
+
+
+  .game-card h3 {
+
+   font-size: 22px;
+
+   color: #e83e8c;
+
+   margin-bottom: 12px;
+
+  }
+
+
+
+  .game-card p {
+
+   font-size: 14px;
+
+   color: #ccc;
+
+   line-height: 1.4;
+
+  }
+
+ </style>
+
+</head>
+
+<body>
+
+ <header>
+
+  <h1>My Universe</h1>
+
+  <p>Explore top online games that bring thrill and excitement</p>
+
+ </header>
+
+
+
+ <div class="intro">
+
+  <p>Welcome to my universe-a place where strength meets strategy and passion fuels every day. When I’m not running the diner, you’ll find me pushing limits at the gym, chasing new personal bests, and embracing the power of discipline and dedication. Fitness isn’t just a hobby; it’s a way of life that keeps me energized and focused.
+
+    But it’s not all sweat and reps! I also dive into the exciting world of gaming, where creativity and quick thinking come alive. Whether it’s exploring new worlds, mastering challenges, or teaming up with friends, gaming is my way to unwind, connect, and have fun.</p>
+
+ </div>
+
+
+
+ <div class="games-grid">
+
+  <div class="game-card">
+
+   <img src="https://res.cloudinary.com/peloton-cycle/image/fetch/c_fill,dpr_1.0,w_1280,h_720,x_65,y_106/f_auto/q_auto/https://images.ctfassets.net/6ilvqec50fal/4zPywIbMm7r2V40i5XWHWg/2817751d3dd0e3e0832dd2bbd9c46560/does-working-out-increase-testosterone.jpg" alt="Gym">
+
+   <div class="content">
+
+    <h3>Gym</h3>
+
+    <p>The gym is my daily playground for building strength and pushing limits.</p>
+
+   </div>
+
+  </div>
+
+
+
+  <div class="game-card">
+
+   <img src="https://www.healthxchange.sg/sites/hexassets/Assets/fitness-exercise/jogging-in-the-city-what-you-need-to-know.jpg" alt="Gym">
+
+   <div class="content">
+
+    <h3>Running</h3>
+
+    <p>Running clears my mind and fuels my spirit with every step.</p>
+
+   </div>
+
+  </div>
+
+
+
+  <div class="game-card">
+
+   <img src="https://spaces-wp.imgix.net/2016/06/coding-in-the-classroom.png?auto=compress,format&q=50" alt="Coding">
+
+   <div class="content">
+
+    <h3>Programming</h3>
+
+    <p>Coding turns ideas into reality, one line at a time.</p>
+
+   </div>
+
+  </div>
+
+
+
+  <div class="game-card">
+
+   <img src="https://cdn.mos.cms.futurecdn.net/YHdtAs36hSJUL56Lq2nxFi-1200-80.jpg" alt="Valorant">
+
+   <div class="content">
+
+    <h3>Valorant</h3>
+
+    <p>A tactical shooter combining gunplay and unique agent abilities.</p>
+
+   </div>
+
+  </div>
+
+ </div>
+
+</body>
+
+</html>

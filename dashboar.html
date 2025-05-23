@@ -1,0 +1,222 @@
+<!<!Doctype html>
+
+<html lang="eng">
+
+<head>
+
+<meta charset = "UTF-8">
+
+<meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+
+<title>Dashboard</title>
+
+
+
+<style>
+
+body {
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+display: flex;
+
+flex-direction: column;
+
+height: 100vh;
+
+}
+
+
+
+.header {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+background-color: #333;
+
+color: white;
+
+padding: 20px;
+
+}
+
+
+
+.container {
+
+display: flex;
+
+flex: 1;
+
+}
+
+
+
+.sidebar {
+
+width: 200px;
+
+background-color: black;
+
+color: white;
+
+padding: 20px;
+
+display: flex;
+
+flex-direction: column;
+
+gap: 10px;
+
+}
+
+
+
+.sidebar h2 {
+
+font-size: 20px;
+
+margin-bottom: 15px;
+
+}
+
+
+
+.sidebar a {
+
+color: white;
+
+text-decoration: none;
+
+padding: 10px;
+
+border-radius: 5px;
+
+transition: background-color 0.3s ease;
+
+}
+
+
+
+.sidebar a:hover {
+
+background-color: #555;
+
+}
+
+
+
+.main-content {
+
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+
+grid-template-rows: repeat(2, 200px);
+
+gap: 15px;
+
+padding: 20px;
+
+flex: 1;
+
+background: #ffffff;
+;
+
+}
+
+
+
+.box {
+
+background-color: #22bbde;
+
+border-radius: 5px;
+
+box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+font-size: 18px;
+
+font-weight: bold;
+
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.box:hover {
+
+transfom: translateY(-5PX);
+
+box-shadow: 8px 8px 20px rgba(0,0,0,0.15);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+Dashboard Header
+
+</div>
+
+
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>DASHBOARD</h2>
+
+<a href="file:///C:/Users/student/Desktop/WEB%20DESIGN_TABADERO/HTML/DASHBOARD.html#">Home</a>
+
+<a href="#">Overview</a>
+
+<a href="#">Staff</a>
+
+<a href="#">Cooks</a>
+
+<a href="#">Services</a>
+
+<a href="#">Food Menus</a>
+
+</div>
+
+
+
+<div class="main-content">
+
+<div class="box">PORK SISIG</div>
+
+<div class="box">CHOPSUEY</div>
+
+<div class="box">KING SANDWICH</div>
+
+<div class="box">KING LUGAW</div>
+
+<div class="box">BBQ</div>
+
+<div class="box">SINIGANG NA BABOY</div> 
+
+</div>
+
+</div>
+
+</body>
+
+</html>

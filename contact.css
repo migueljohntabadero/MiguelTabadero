@@ -1,0 +1,63 @@
+body {
+
+    background: #c6db64;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.contact-form {
+    background: transparent;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    width: 350px;
+
+}
+
+
+.contact-form h2 {
+    color: #8e24aa;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8e24aa;
+    display: inline-block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 16px;
+    outline: none;
+}
+.name-input {
+    border: 2px solid rgb(253, 127, 8);
+    box-shadow: 0 0 5px rgb(255, 136, 0);
+}
+
+form textarea {
+
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #7782e0, #6ccf6c);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    opacity: 0.9;
+}
